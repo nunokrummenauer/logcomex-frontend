@@ -1,7 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/order-list">Lista de Pedidos</router-link> |
+    <router-link to="/order-chart">Gráfico de Pedidos</router-link> |
+    <router-link to="/amount-chart">Gráfico de Preços</router-link> 
   </nav>
   <router-view/>
 </template>
@@ -16,15 +17,15 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 10px;
 }
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #464646;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #420f94;
 }
 </style>
